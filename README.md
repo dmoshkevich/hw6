@@ -1,5 +1,5 @@
-###Запуск iterable_func
+### Запуск iterable_func
 python iterable_func.py
 
-###Запуск тестов
+### Запуск тестов
 python -m pytest test_iterable_func.py
