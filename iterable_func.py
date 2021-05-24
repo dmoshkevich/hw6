@@ -19,7 +19,7 @@ def flatten(iterable: Iterable):
     [0, 1, 2, 3]
     """
     for elem in iterable:
-        if isinstance(elem, (list, set, dict, tuple)):
+        if isinstance(elem, (list, set, tuple)):
             yield from flatten(elem)
         elif isinstance(elem, (int, str, float, bool)):
             yield elem
